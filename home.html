@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nayako</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navigation" id="navigation">
+    
+</header>
+<!-- home -->
+ <section id="home">
+    <div class="container">
+        <div class="box-home">
+            <div class="box"  data-aos="zoom-in" data-aos-duration="1000">
+                <h1>Hello, I'm Naya!</h1>
+                <p>Great design and digital strategy aren’t just about aesthetics—they’re about making bold moves. I help brands take creative risks that drive engagement and growth. Whether it's eye-catching visuals, compelling content, or a strong online presence, let’s turn ideas into impact!.</p>
+                <div class="button-container">
+                    <button class="button1"><a href="#">More About Me</a></button>
+                    <button class="button2"><a href="#">Let’s Collaborate</a></button>
+                </div>                
+            </div>
+
+            <div class="box" data-aos="fade-left" data-aos-duration="1000">
+                <img src="Images//home/photo.png" alt="">
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- home -->
+ 
+
+
+ <!-- Glimpse -->
+ <section class="glimpse">
+    <div class="judul"> <h1>Glimpse of My Work</h1>
+        
+    </div>
+    <div class="gambar">
+        <img src="images/home/Frame 1.png" alt="">
+        <img src="images/home/Frame 2.png" alt="">
+        <img src="images/home/Frame 3.png" alt="">
+        <img src="images/home/Feeds Ransel Berdampak 1.png" alt="">
+    </div>
+     <div class="button-moreinfo">
+        <button class="custom-button">
+            <img src="/images/home/mdi-light_arrow-right-circle.png" alt="Arrow Icon" class="icon">
+            <a href=""><span class="text">More Info</span></a>
+        </button>
+    </div>
+  </section>
+
+  <section class="read-my-blog">
+    <div class="text-blog">
+        <h1>Read My Blog</h1>
+        <h2>Featured</h2>
+        <h3>Why Everpages as Custom Memory Books are the Perfect Gift for Any Occasion?</h3>
+        <p>Memory books are more than just keepsakes—they’re heartfelt gifts that celebrate life’s special moments. In this post, we explore why custom memory books make the perfect, personalized gift for birthdays, anniversaries, or milestones.</p>
+        <div class="button-morearticles">
+            <button class="custom-button2">
+                <img src="/images/home/mdi-light_arrow-right-circle.png" alt="Arrow Icon" class="icon">
+                <a href=""><span class="text">More Info</span></a>
+            </button>
+        </div>
+    </div>
+    <div class="border">
+        <img src="images/home/Rectangle 33.png" alt="">
+    </div>
+
+  </section>
+<!--  -->
+
+
+<footer id="footer"></footer>
+
+
+
+
+
+
+
+
+
+
+</body>
+<script>
+    const header = document.getElementById('navigation');
+    const footer = document.getElementById('footer');
+    fetch('./header.html').then(snap => snap.text()).then(result =>{
+        header.innerHTML = result;
+    })
+    fetch('./footer.html').then(snap => snap.text()).then(result =>{
+        footer.innerHTML = result;
+    })
+</script>
+</html>

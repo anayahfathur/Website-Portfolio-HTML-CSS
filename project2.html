@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nayako</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/project.css">
+    <link rel="stylesheet" href="style/about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navigation" id="navigation"></header>
+    
+    <section id="project2">
+        <div class="box-project2">
+        <div class="box-project">
+        <div class="garis-samping">
+            ..
+        </div>
+        <div class="head-judul-project">
+            <h1>Bisdig Social Media Team</h1>
+        </div>
+    </div>
+        <p class="p-project">As a Graphic Designer on the Bisdig Social Media Team, I played a key role in bringing the Digital Business Study Program's Instagram to life. Through creative and visually engaging designs, I helped amplify the program's online presence, connect with the community, and highlight student achievements in a dynamic and impactful way.</p>
+        <div class="button-project">
+            <button class="button-project2"><a href="#glimpse">Instagram Feeds</a></button>
+            <button class="button-project2"><a href="#glimpse-2"></a>Instagram Story</button>
+        </div>    
+    </div>
+    </section>
+
+    <section id="box-pembatas">
+        <div class="pembatas">
+            <div class="sub-bisdig">
+                <h3>Bisdig Social Media Team</h3>
+            </div>
+            <img src="/images/project/Asterisk 2.png" alt="">
+            <div class="sub-bisdig">
+                <h3>Bisdig Social Media Team</h3>
+            </div>
+            <img src="/images/project/Asterisk 2.png" alt="">
+            <div class="sub-bisdig">
+                <h3>Bisdig Social Media Team</h3>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="glimpse">
+        <div class="judul"> <p>Instagram Feeds</p>
+            
+        </div>
+        <div class="gambar">
+            <img src="images/project/18 1.png " alt="">
+            <img src="images/project/22 2.png " alt="">
+            <img src="images/project/13 1.png " alt="">
+            <img src="images/project/12 2.png " alt="">
+            <img src="images/project/17 1.png " alt="">
+            <img src="images/project/16 1.png " alt="">
+            
+        </div>
+         <div class="button-moreinfo">
+            <p>Slide for more content</p>
+        </div>
+      </section>
+
+      <section id="glimpse-2">
+        <div class="judul"> <p>Instagram Story</p>
+            
+        </div>
+        <div class="gambar">
+            <img src="images/project/12 1.png " alt="">
+            <img src="images/project/20 24.png " alt="">
+            <img src="images/project/13 1.png " alt="">
+            <img src="images/project/15 1.png " alt="">
+            
+        </div>
+         <div class="button-moreinfo">
+            <p>Slide for more content</p>
+        </div>
+      </section>
+
+
+      <footer id="footer"></footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script>
+    const header = document.getElementById('navigation');
+    const footer = document.getElementById('footer');
+    fetch('./header.html').then(snap => snap.text()).then(result =>{
+        header.innerHTML = result;
+    })
+    fetch('./footer.html').then(snap => snap.text()).then(result =>{
+        footer.innerHTML = result;
+    })
+</script>
+</html>

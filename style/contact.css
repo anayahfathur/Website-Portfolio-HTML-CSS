@@ -1,0 +1,176 @@
+
+#contact{
+    margin-top: 50px;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    -webkit-transform: translate(50%, -50%);
+    -moz-transform: translate(50%, -50%);
+    -ms-transform: translate(50%, -50%);
+    -o-transform: translate(50%, -50%);
+}
+
+
+/* Layout utama */
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background: #000; /* hitam */
+    color: white;
+    
+  }
+  
+  /* Kiri */
+  .contact-left {
+    width: 50%;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #363332;
+    border-radius: 20px 0 0 20px;
+    padding-left: 50px;
+  }
+  
+  /* Email bar */
+  .email-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .email-bar span {
+    background: #2c2c2c;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+  
+  .email-bar button {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 6px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  /* Intro text */
+  .intro {
+    font-size: 22px;
+    line-height: 1.6;
+    max-width: 50%;
+    overflow-wrap: break-word;
+  }
+  
+  .intro a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  /* Gambar */
+  .logo-image img {
+    width: 80px;
+    height: auto;
+    margin: 30px 0;
+  }
+  
+  /* Let's Connect */
+  .connect-text h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Kanan */
+  .contact-right {
+    width: 50%;
+    background: #EE4095; /* pink */
+    border-radius: 0 20px 20px 0;
+    padding: 30px;
+    color: white;
+  }
+  
+  .contact-right h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    opacity: 0.7; 
+  }
+  .contact-right h2 span{
+    font-size: 50px;
+    margin-bottom: 20px;
+     
+  }
+
+  .service-form p {
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  
+  /* Tags */
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tags span {
+    background: #fff;
+    color: #E91E63;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+  }
+  
+  /* Input dan textarea */
+  .service-form input,
+  .service-form textarea {
+    display: block;
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 8px 0;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  
+  .service-form input::placeholder,
+  .service-form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  /* Tombol Submit */
+  .submit-btn {
+    background: black;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 13px;
+    margin: 10px auto 0;
+    display: block; /* penting untuk margin auto bisa bekerja */
+  }
+  

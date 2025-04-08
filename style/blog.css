@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+
+/* Reset Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins";
+}
+
+html {
+    /* font-size: 62.5%; */
+    scroll-behavior: smooth;
+    background-color: #8A2E61;
+    
+  }
+  
+
+  #blog{
+    margin-top: 5px;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    -webkit-transform: translate(50%, -50%);
+    -moz-transform: translate(50%, -50%);
+    -ms-transform: translate(50%, -50%);
+    -o-transform: translate(50%, -50%);
+    color: #f5f5f5;
+    
+  }
+  .blog{
+    padding: 30px 10px;
+   
+  }
+
+.text-blog{
+  max-width: 70%;
+    overflow-wrap: break-word;
+}
+.button-blog{
+    display: flex;
+    justify-content: flex-end; /* Pusatkan tombol */
+    align-items: center;
+    padding-bottom: 50px;
+    margin-top: 10px;
+}
+.button-blog-2{
+  display: flex;
+  justify-content: flex-end; /* Pusatkan tombol */
+  align-items: center;
+  padding-bottom: 50px;
+  background: black;
+  margin-bottom: 50px;
+}
+.button-blog-2{
+  justify-content: center; /* Pusatkan tombol */
+  align-items: center;
+  padding: 50px;
+}
+.button-blog{
+    justify-content: center; /* Pusatkan tombol */
+    align-items: center;
+}
+
+.baris-baru{
+  text-align: center;
+  background-color: #EE4095;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.design-daily-life-beyond {
+  padding: 20px;
+  margin-top: 20%;
+  background: black;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container-blog {
+  margin-top: 5%;
+  background: linear-gradient(to bottom, rgb(60, 60, 56) 0%, rgb(46, 46, 39) 31%, rgb(249, 248, 237) 96%);
+  border-radius: 30px;
+  overflow: hidden;
+  color: #fff;
+  max-width: 500px;
+  position: relative;
+  padding-bottom: 15px;
+  padding-right: 10px;
+}
+
+.text-header-blog span {
+  background-color: white;
+  color: deeppink;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding-right: 80px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+  z-index: 2;
+}
+
+.image-blog img {
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+}
+
+
+
+.publish-date {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.blog-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 12px 0;
+}
+
+.read-more-btn {
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.image-wrapper {
+  position: relative;
+}
+
+.image-wrapper img {
+  width: 100%;
+  display: block;
+  border-radius: 20px;
+}
+
+.blog-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  width: 100%;
+  background: #8A2E61;
+  color: white;
+  border-radius: 30px;
+}
+
+.blog-content-2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  width: 100%;
+  background: #EE4095;
+  color: white;
+  border-radius: 30px;
+}
+
+.get-2{
+  padding-top: 90px;
+  font-size: 75px;
+  text-align: center;
+  color: #E7E6D6;
+  padding-bottom: 22px;
+  background: transparent;
+  line-height: 0;
+  font-weight: bold;
+  background-color: black;
+}
