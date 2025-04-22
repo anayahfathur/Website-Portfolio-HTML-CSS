@@ -11,7 +11,7 @@
     --primary: #ec994b;
     --white: #ffffff;
     --bg: #000000;
-  }
+  } 
 
 html {
     /* font-size: 62.5%; */
@@ -20,7 +20,7 @@ html {
     
   }
 #project2{
-    margin-top: 5px;
+    margin-top: 50px;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -49,6 +49,8 @@ html {
     border-radius: 50px;
     padding: 13px 2px;
     display: inline-block;
+    gap: 20px;
+
 }
 .head-judul-project h1{
     background-color: #9C3165 ;
@@ -91,6 +93,7 @@ html {
     margin-bottom: 90px;
 }
 .pembatas{
+    margin-top: 10%;
     display: flex;
     color: #F5F5F5;
     background-color: #9C3165 ;
@@ -194,7 +197,7 @@ html {
 
 .container-konten-project {
     position: relative;
-    width: 500px; /* Sesuaikan dengan ukuran gambar */
+    width: 490px; /* Sesuaikan dengan ukuran gambar */
     overflow: visible;
     height: auto;
     display: flex;

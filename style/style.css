@@ -26,7 +26,7 @@ html {
 header{
     width: 100%;
     height: 100vh;
-   
+    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -97,6 +97,7 @@ header{
 
 /* bagian HOME */
 #home{
+    margin-top: 50px;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -174,8 +175,11 @@ button a {
 }
 /* Glimpse og my work */
 .glimpse{
+    margin-top: 10%;
     background-color: #9C3165;
     border-radius: 50px;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 .judul{
     padding: 20px;
@@ -220,7 +224,7 @@ button a {
     display: flex;
     justify-content: center; /* Pusatkan tombol */
     align-items: center;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     margin-top: 10px;
 }
 
@@ -266,17 +270,17 @@ button a {
     border-radius: 40px;
     padding: 1px 30px; 
     width: 100%;    
-    margin: 50px auto;
+    /* margin: 50px auto; */
     color: #EAE2D7;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between; /* Agar kedua elemen sejajar horizontal */
    gap: 30px;
-   margin-bottom: 60px;
+   margin-bottom: 1px;
 }
 .text-blog{
-    padding: 24px 50px;
+    padding: 20px 50px;
 }
 
 
@@ -311,21 +315,21 @@ button a {
 /* Paragraf */
 .text-blog p {
     font-size: 17px;
-    color: #ffffff;
+    color: #ffffff; 
 }
 
 .button-morearticles {
     display: flex;
     justify-content: flex-end; /* Pusatkan tombol */
     align-items: center;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     margin-top: 10px;
 
 }.button-morearticles {
     display: flex;
     justify-content: center; /* Pusatkan tombol */
     align-items: center;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     margin-top: 10px;
     margin-left: 400px;
 }
@@ -367,14 +371,16 @@ button a {
 
 /* Border / Elemen visual */
 .border {
-    padding: 0;
-    margin: 0;
-    width: 100%; /* Sesuaikan ukuran border */
-    height: 100%;
     filter: blur(20px); /* Efek blur langsung */
    border-radius: 50px;
-}
 
+}
+.border img{
+    width: 290px;
+    height: auto;
+   margin: 0 40px;
+   line-height: 0px;
+}
 .get{
     /* padding-top: 90px; */
     font-size: 75px;
